@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;900&family=Outfit:wght@300&display=swap');
+ 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.hero{
+    width: 1435px;
+    display: grid;
+    grid-template-columns: 450px 540px auto;
+}
+.black-background{
+    background-color: black;
+}
+.image {
+    width: 540px;
+    height: 800px;
+}
+.logo{
+    width: 514;
+    height: 176px;
+    padding-left: 150px;
+    margin-top: 50%;
+}
+.image{
+    background-image: url(assets/desktop/image-hero@2x.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+.logo-dark{
+    position: absolute;
+    width: 514px;
+    height: 176px;
+    overflow-wrap: break-word; 
+    margin-left: -470px;
+    margin-top: 224px;
+}
+.background-white p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    width: 350px;
+    line-height: 32px;
+    height: 160px;
+    margin-top: 185px;
+    margin-left: -60px;  
+    font-weight: 300;
+    color: #444444;
+}
+.background-white{
+    position: relative;
+    overflow-x: visible;
+    background-color: white;
+    overflow-wrap: normal;
+}
+.hero-btn{
+    font-family: 'Big Shoulders Display';
+    margin-left: -60px;
+    text-transform: uppercase;
+    width: 204px;
+    height: 72px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3.63636px;
+    padding-left: 2px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.gold{
+    border: transparent;
+    background: #D5966C;
+    width: 56px;
+}
+.arrow-right{
+   
+    width: 8px;
+    height: 24px; 
+}
+.btn-container{
+    
+    display: flex;
+    margin-top: 80px;
+}
+.gallery{
+    margin-top: 180px;
+    width: 1110px;
+    margin-left: 165px;
+}
+.gallery-1{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.gallery-info-1{
+    width: 447px;
+    height: 377px;
+    
+}
+.gallery-info-1 h2{
+    width: 350px;
+    height: 120px;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.gallery-info-1 p{
+    font-family: 'Outfit', sans-serif;
+    width: 350px;
+    height: 128px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    
+}
+.image-1 {
+    width: 635px;
+    height: 400px;
+}
+.image-2 img{
+    width: 635px;
+    height: 720px;
+}
+.image-part-2 {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    color: white;
+}
+.image-3 {
+    width: 445px;
+    height: 313px;  
+}
+.gallery-3{
+    height: 700px;
+    display: grid;
+    gap: 30px;
+}
+.gallery-info-2{
+    width: 445px;
+    height: 377px;
+    background: black;
+    text-align: start;
+    
+    
+}
+.gallery-info-2 h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    line-height: 60px;
+}
+.gallery-info-2 p{
+    font-size: 22px;
+    width: 350px;
+    height: 248px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 50px;
+}
+.footer-icons{
+    padding: 10px 10px;
+}
+.fa-brands{
+    color: white;
+    padding: 10px;
+    margin-top: -30px;
+}
+.footer{
+    background: black;
+    height: 244px;
+    margin-top: 180px; 
+}
+.footer-center{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 200px;
+width: 1110px;
+height: 84px;
+padding: 80px 150px;
+justify-items: center;
+}
+.footer-center p{
+    color: white;
+    width: 410px;
+    height: 84px;
+    line-height: 28px;
+    margin-top: -10px;
+    font-family: 'Outfit', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.map-container{
+    background: url(assets/desktop/image-map@2x.png);
+    height: 600px;
+    background-size: cover;
+}
+.location-btn-container {
+    display: flex;
+    width: 264px;
+    margin-left: 160px;
+}
+.location-btn {
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    width: 204px;
+    height: 72px;
+    background: #D5966C;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3.63636px;
+    margin-left: 0px;
+    cursor: pointer;
+    position: relative;
+    border: transparent;
+}
+.black{
+    width: 56px;
+    background: black;
+}
+.arrow-left {
+    width: 8px;
+    height: 24px;
+    margin-top: 23px;
+    margin-left: 30px;
+    position: absolute;
+}
+.background-black{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: black;
+    height: 548px;
+}
+.main-title{
+    text-align: start;
+    width: 350px;
+    height: 140px;
+    color: white;
+    font-size: 70px;
+   line-height: 70px;
+   font-weight: 900;
+   margin-left: 150px;
+   margin-top: 100px;
+   
+}
+.location-h2{
+    margin-top: 100px;
+    color: #D5966C;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.location-p-1{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    width: 445px;
+    height: 96px;
+    line-height: 32px;
+    font-size: 22px;
+   
+}
+.location-p-2{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 40px;
+    color: white;
+    width: 540px;
+    height: 96px;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.location-footer {
+    background: #D5966C;
+}
+.location-footer-center {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 200px;
+    width: 1440px;
+    height: 84px;
+    padding: 80px 0;
+    justify-items: center;
+    margin-left: 160px;
+   
+}
+.location-footer-center p {
+    color: #151515;
+    width: 410px;
+    height: 84px;
+    line-height: 28px;
+    margin-top: -10px;
+    font-family: 'Outfit', sans-serif;
+    
+    
+}
+.footer-logo{
+    width: 160px;
+    height: 58px;
+
+}
+.ab{
+    color: black;
+    padding: 10px;
+    margin-top: -30px;
+}
+.ab:hover{
+    color: white;
+}
+
+
+
+
